@@ -6,7 +6,7 @@ tags: [VBScript, VBA]
 ---
 
 
-there is no Like operator in VBScript. You could use Instr.
+There is no ```Like``` operator in VBScript. You could use Instr.
 
 if Instr( 1, strPrinter, "printer_USA", vbTextCompare ) > 0 then
 
