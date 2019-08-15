@@ -1,7 +1,7 @@
 ---
 layout: post
-Title: Change font size of a htmlcollection
-Category:
+title: Change font size of a htmlcollection
+category:
 tags: JavaScript
 ---
 
