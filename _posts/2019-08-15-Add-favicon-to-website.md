@@ -1,7 +1,7 @@
 ---
 layout: post
-Title: Add favicon to Jekyll site
-Category:
+title: Add favicon to Jekyll site
+category:
 tags: [Jekyll]
 ---
 
