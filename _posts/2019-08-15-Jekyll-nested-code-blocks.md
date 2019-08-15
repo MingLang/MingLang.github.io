@@ -1,7 +1,7 @@
 ---
 layout: post
-Title: Jekyll highlighted code blocks nested by default
-Category:
+title: Jekyll highlighted code blocks nested by default
+category:
 tags: [Jekyll, CSS]
 ---
 
