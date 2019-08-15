@@ -5,7 +5,7 @@ category:
 tags: [Jekyll]
 ---
 
-According to the page source, the class of inline code is `highlighter-ruge`. Therefore, add this to `_sass\_highlights.scss`: 
+According to the page source, the class of inline code is `highlighter-rouge`. Therefore, add this to `_sass\_highlights.scss`: 
 
 ```CSS
 .highlighter-rouge {
