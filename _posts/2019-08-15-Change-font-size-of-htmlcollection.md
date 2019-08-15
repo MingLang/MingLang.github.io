@@ -12,4 +12,4 @@ for (item of list){
 }
 ```
 
-https://www.thesitewizard.com/javascripts/change-font-size-with-javascript.shtml
+<https://www.thesitewizard.com/javascripts/change-font-size-with-javascript.shtml>
