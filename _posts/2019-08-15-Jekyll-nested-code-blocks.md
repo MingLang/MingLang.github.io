@@ -5,7 +5,7 @@ Category:
 tags: [Jekyll, CSS]
 ---
 
-When use `` ``` `` to highlight code blocks, Jeykll shows code blocks with an extra frame. 
+When use ```` ``` ```` to highlight code blocks, Jeykll shows code blocks with an extra frame. 
 
 The issue can be solved by replacing all `.highlight` with `pre.highlight` in `_sass/_highlights.scss`.
 
