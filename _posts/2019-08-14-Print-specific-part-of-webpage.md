@@ -1,7 +1,7 @@
 ---
 layout: post
-Title: Print specific part of webpage
-Category:
+title: Print specific part of webpage
+category:
 tags: JavaScript
 ---
 
