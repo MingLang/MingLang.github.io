@@ -15,4 +15,4 @@ WinPrint.print();
 WinPrint.close();
 ```
 
-https://stackoverflow.com/questions/12997123/print-specific-part-of-webpage
+<https://stackoverflow.com/questions/12997123/print-specific-part-of-webpage>
