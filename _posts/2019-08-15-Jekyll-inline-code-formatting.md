@@ -7,7 +7,7 @@ tags: [Jekyll]
 
 According to the page source, the class of inline code is `highlighter-rouge`. Therefore, add this to `_sass\_highlights.scss`: 
 
-```CSS
+```
 .highlighter-rouge {
     background-color: #efefef;
     padding-left: 7px;
