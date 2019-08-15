@@ -1,18 +1,15 @@
 ---
 layout: post
-Title: Print specific part of webpage
+Title: Change font size of a htmlcollection
 Category:
 tags: JavaScript
 ---
 
 ```javascript
-var prtContent = document.getElementsByTagName("article")[0];
-var WinPrint = window.open('', '', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
-WinPrint.document.write(prtContent.innerHTML);
-WinPrint.document.close();
-WinPrint.focus();
-WinPrint.print();
-WinPrint.close();
+var list = document.getElementsByTagName("p");
+for (item of list){
+    item.style.fontSize = "150%";
+}
 ```
 
-https://stackoverflow.com/questions/12997123/print-specific-part-of-webpage
+https://www.thesitewizard.com/javascripts/change-font-size-with-javascript.shtml
