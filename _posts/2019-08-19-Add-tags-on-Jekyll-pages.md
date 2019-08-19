@@ -85,7 +85,7 @@ tags: [Jekyll, Tag]
 
 3. Add below codes to `/style.scss`
 
-```CSS
+```css
 .tags {
   display: inline-block;
   border: 1px solid $gray;
