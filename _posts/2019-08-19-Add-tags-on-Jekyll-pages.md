@@ -14,7 +14,7 @@ title: Tag
 ---
 ```
 
-```liquid
+````
 {% comment %}
 =======================
 The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
@@ -26,7 +26,7 @@ The following part extracts all the tags from your posts and sort tags, so that 
     {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
-```
+````
 
 ```liquid
 {% comment %}
