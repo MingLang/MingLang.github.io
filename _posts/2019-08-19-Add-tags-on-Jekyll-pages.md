@@ -5,10 +5,9 @@ category:
 tags: [Jekyll, Tag]
 ---
 
-A individual ComboBox object can be referenced through `ws.DropDowns(1).Value`. However, when it is grouped with other objects, the script should be `ws.Shapes(1).GroupItems(3).ControlFormat.Value`.
-
 1. Create `/tag.html` and copy below codes to it.
 
+```
 ```
 ---
 layout: default
@@ -80,6 +79,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 	 {% endfor %}
 	</ul>
 {% endfor %}
+```
 ```
 
 2. Add `<a href="{{ site.baseurl }}/tags">Tag</a>` to `_layouts/default.html`
