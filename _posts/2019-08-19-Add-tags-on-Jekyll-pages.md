@@ -5,14 +5,16 @@ category:
 tags: [Jekyll, Tag]
 ---
 
-1. Create `/tag.html` and copy below codes to it.
+1. Create `/tag.html` and copy below front matter and liquid codes to it.
 
-```liquid
+```
 ---
 layout: default
 title: Tag
 ---
+```
 
+```liquid
 {% comment %}
 =======================
 The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
@@ -24,7 +26,9 @@ The following part extracts all the tags from your posts and sort tags, so that 
     {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
+```
 
+```liquid
 {% comment %}
 =======================
 The following part removes dulpicated tags and invalid tags like blank tag.
@@ -41,7 +45,9 @@ The following part removes dulpicated tags and invalid tags like blank tag.
         {% endunless %}
     {% endif %}
 {% endfor %}
+```
 
+```liquid
 {% comment %}
 =======================
 The purpose of this snippet is to list all the tags you have in your site.
@@ -52,7 +58,9 @@ The purpose of this snippet is to list all the tags you have in your site.
         <div class="tags">{{ tag }}</div> 
     </a>
 {% endfor %}
+```
 
+```liquid
 {% comment %}
 =======================
 The purpose of this snippet is to list all your posts posted with a certain tag.
