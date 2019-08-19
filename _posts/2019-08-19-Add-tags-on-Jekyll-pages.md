@@ -7,8 +7,7 @@ tags: [Jekyll, Tag]
 
 1. Create `/tag.html` and copy below codes to it.
 
-```
-```
+```liquid
 ---
 layout: default
 title: Tag
@@ -80,7 +79,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 	</ul>
 {% endfor %}
 ```
-```
+
 
 2. Add `<a href="{{ site.baseurl }}/tags">Tag</a>` to `_layouts/default.html`
 
