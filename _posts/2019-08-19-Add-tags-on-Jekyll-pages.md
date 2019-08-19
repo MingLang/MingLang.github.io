@@ -85,14 +85,14 @@ tags: [Jekyll, Tag]
 
 3. Add below codes to `/style.scss`
 
-        ```
-        .tags {
-          display: inline-block;
-          border: 1px solid $gray;
-          border-radius: .313rem;
-          padding: .25rem .625rem;
-          margin-right: .125rem;
-          margin-bottom: .5rem;
-          border-bottom: 2px solid $gray;
-        }
-        ```
+```CSS
+.tags {
+  display: inline-block;
+  border: 1px solid $gray;
+  border-radius: .313rem;
+  padding: .25rem .625rem;
+  margin-right: .125rem;
+  margin-bottom: .5rem;
+  border-bottom: 2px solid $gray;
+}
+```
