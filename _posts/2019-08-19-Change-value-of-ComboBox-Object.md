@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Change value of ComboBox Object
-category:
+category: VBA
 tags: [VBA, ComboBox]
 ---
 
