@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Add favicon to Jekyll site
-category:
-tags: [Jekyll]
+category: Jekyll
+tags: [Jekyll, favicon]
 ---
 
 Save icon file (preferably `.png`) in `\images` and rename it as `favicon.png`, then add below declaration to `_layouts\default.html`.
