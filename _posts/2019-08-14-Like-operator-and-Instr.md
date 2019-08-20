@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Like operator and Instr
-category:
+category: VB
 tags: [VBScript, VBA]
 ---
 
