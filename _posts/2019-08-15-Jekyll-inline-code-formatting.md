@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll inline code formatting
-category:
+category: Jekyll
 tags: [Jekyll]
 ---
 
