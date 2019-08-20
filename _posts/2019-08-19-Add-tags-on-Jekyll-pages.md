@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Add tags to Jekyll pages
-category:
+category: Jekyll
 tags: [Jekyll, Tag]
 ---
 
