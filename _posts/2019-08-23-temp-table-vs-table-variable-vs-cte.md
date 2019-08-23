@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cannot run SQL with table variables or temp tables in Excel
+title: Temp table vs table variable vs cte
 category: SQL
 tags: [SQL]
 --- 
@@ -9,11 +9,8 @@ All are used to store data temporarily.
 
 <https://www.linkedin.com/pulse/cte-vs-temp-table-variable-ajay-kumar>:
 >**Note**
-
 >* Temp Tables are physically created in the Tempdb database. These tables act as the normal table and also can have constraints, index-like normal tables.
-
 >* CTE is a named temporary result set which is used to manipulate the complex sub-queries data. This exists for the scope of a statement. This is created in memory rather than Tempdb database. You cannot create any index on CTE.
-
 >* Table Variable acts like a variable and exists for a particular batch of query execution. It gets dropped once it comes out of a batch. This is also created in the Tempdb database but not the memory.
 
 <https://www.mssqltips.com/sqlservertip/5118/sql-server-cte-vs-temp-table-vs-table-variable-performance-test/>:
