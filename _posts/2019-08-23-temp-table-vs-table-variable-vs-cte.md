@@ -2,10 +2,11 @@
 layout: post
 title: Temp table vs table variable vs cte
 category: SQL
-tags: [SQL]
+tags: [SQL, temp table]
 --- 
 
 All are used to store data temporarily.
+Below are some points about the differences and when to use which.
 
 <https://www.linkedin.com/pulse/cte-vs-temp-table-variable-ajay-kumar>:
 >**Note**
