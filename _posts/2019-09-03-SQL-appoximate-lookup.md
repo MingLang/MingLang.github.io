@@ -19,6 +19,7 @@ tags: [SQL, lookup]
 
 ## tblGroup
 
+{:class="table table-bordered"}
 |Age|AgeGroup|
 |---|---|
 |0|A|
