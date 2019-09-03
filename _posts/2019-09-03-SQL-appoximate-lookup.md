@@ -15,7 +15,7 @@ tags: [SQL, lookup]
 | Chris | 8 |
 | David | 12 |
 | Eric | 18 |
-{:.table-striped}
+{:.mbtablestyle}
 
 ## tblGroup
 
