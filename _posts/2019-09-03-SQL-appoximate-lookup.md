@@ -54,7 +54,6 @@ VALUES
 (10,'C'),
 (15,'D')
 
-
 SELECT *
 FROM @tblStudents AS s
 OUTER APPLY (SELECT TOP 1 AgeGroup
