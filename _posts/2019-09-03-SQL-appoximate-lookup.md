@@ -9,17 +9,15 @@ tags: [SQL, lookup]
 ## tblStudents
 
 | Name | Age |
-| ---- | ---- |
+| --- | --- |
 | Adam | 3 |
 | Bob | 5 |
 | Chris | 8 |
 | David | 12 |
 | Eric | 18 |
-{:.mbtablestyle}
 
 ## tblGroup
 
-{:class="table table-bordered"}
 |Age|AgeGroup|
 |---|---|
 |0|A|
