@@ -6,8 +6,7 @@ tags: [SQL, lookup]
 --- 
 
 
-tblStudents
-
+## tblStudents
 
 | Name | Age |
 | --- | --- |
@@ -17,8 +16,7 @@ tblStudents
 | David | 12 |
 | Eric | 18 |
 
-tblGroup
-
+## tblGroup
 
 |Age|AgeGroup|
 |---|---|
