@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll inline code formatting
 category: Jekyll
-tags: [Jekyll]
+tags: [Jekyll, CSS]
 ---
 
 According to the page source, the class of inline code is `highlighter-rouge`. Therefore, add this to `_sass\_highlights.scss`: 
