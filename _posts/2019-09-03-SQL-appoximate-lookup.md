@@ -5,8 +5,9 @@ category: SQL
 tags: [SQL, lookup]
 --- 
 
+Assume we have two tables as below: tblStudents and tblGroup.
 
-## tblStudents
+### tblStudents
 
 | Name | Age |
 | --- | --- |
@@ -16,7 +17,7 @@ tags: [SQL, lookup]
 | David | 12 |
 | Eric | 18 |
 
-## tblGroup
+### tblGroup
 
 |Age|AgeGroup|
 |---|---|
@@ -25,7 +26,7 @@ tags: [SQL, lookup]
 |10|C|
 |15|D|
 
-
+Now we want to add a column of AgeGroup in tblStudents showing which age group each student is in. What we need here is basically an Excel true vlookup. Via using `OUTER APPLY` the age group can be calculated and added in tblStudents. The full query is like this:
 ```sql
 DECLARE @tblStudents table
 (
@@ -62,3 +63,13 @@ OUTER APPLY (SELECT TOP 1 AgeGroup
 				 ORDER BY AgeGroup DESC 
 				 ) AS g
 ```
+
+And the output is:
+
+| Name | Age | AgeGroup |
+| --- | --- | --- |
+| Adam | 3 | A |
+| Bob | 5 | B |
+| Chris | 8 | B |
+| David | 12 | C |
+| Eric | 18 | D |
