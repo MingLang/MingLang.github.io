@@ -42,3 +42,6 @@ Then add this in `/style.scss`:
 @import "table";
 
 ```
+
+<https://github.com/barryclark/jekyll-now/issues/561#issuecomment-340239560>
+<https://github.com/misaka-10032/misaka-10032.github.io/commit/a779676201ebaa54fbe07c7803a71e88851470e5>
