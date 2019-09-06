@@ -13,7 +13,8 @@ Private Sub Workbook_Open()
     Application.COMAddIns("PowerPivotExcelClientAddIn.NativeEntry.1").Connect = True
     
     ' activate Power Query add-in
-    On Error GoTo errorHandler ' Cannot be found in Excel 2016 because it is built in
+    On Error GoTo errorHandler 
+    ' Gives error when open with Excel 2016 because Power Query is built in
     If Application.COMAddIns("Microsoft.Mashup.Client.Excel").Connect = False Then
         MsgBox "Please activate the Power Query add-in!"
     End If
