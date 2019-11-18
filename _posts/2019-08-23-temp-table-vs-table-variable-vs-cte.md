@@ -2,7 +2,7 @@
 layout: post
 title: Temp table vs table variable vs cte
 category: SQL
-tags: [SQL, temp table]
+tags: [SQL, Temp table]
 --- 
 
 All are used to store data temporarily.
