@@ -2,7 +2,7 @@
 layout: post
 title: Add back-to-top button to Jekyll pages
 category: Jekyll
-tags: [Jekyll, back-to-top]
+tags: [Jekyll, back to top]
 ---
 
 Add this to `<body>` in `_layouts/default.html`.
