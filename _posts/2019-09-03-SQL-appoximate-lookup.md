@@ -2,7 +2,7 @@
 layout: post
 title: SQL approximate lookup
 category: SQL
-tags: [SQL, lookup]
+tags: [SQL, Lookup]
 --- 
 
 Assume we have two tables as below: tblStudents and tblGroup.
